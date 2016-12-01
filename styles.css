@@ -1,0 +1,40 @@
+#page-wrapper{
+	/* if any styles need to be applied to entire page */
+}
+
+#top-nav-wrapper{
+	width: 90%;
+	margin: 10px auto 0;
+}
+
+#top-nav-left, #top-nav-middle, #top-nav-right{
+	display: inline-block;
+	width: 32%;
+	height: 100px;
+	background-color: gray;
+	overflow: hidden;
+}
+
+#top-nav-middle{
+
+
+}
+
+#top-nav-right{
+
+
+}
+
+#youtube-logo{
+	width: 90%;
+}
+
+#youtube-logo img{
+	width: 45%;
+
+}
+
+#tagline{
+	margin-left: 18px;
+
+}
