@@ -1,40 +1,182 @@
 #page-wrapper{
 	/* if any styles need to be applied to entire page */
+	font-family: Roboto,arial,sans-serif;
+	color: #333;
+	width: 100%;
 }
 
+/* TOP NAV */
+
 #top-nav-wrapper{
-	width: 90%;
+	width: 98%;
 	margin: 10px auto 0;
 }
 
 #top-nav-left, #top-nav-middle, #top-nav-right{
 	display: inline-block;
-	width: 32%;
-	height: 100px;
-	background-color: gray;
+	height: 120px;
+	background-color: white;
 	overflow: hidden;
+	/* border: 1px solid gray; */
+}
+
+#top-nav-left{
+	width: 20%;
 }
 
 #top-nav-middle{
-
-
+	width: 48.5%;
 }
 
 #top-nav-right{
-
-
-}
-
-#youtube-logo{
-	width: 90%;
+	width: 30%;
 }
 
 #youtube-logo img{
-	width: 45%;
-
+	width: 65%;
+	max-width: 130px;
 }
 
 #tagline{
 	margin-left: 18px;
+}
+
+#search-bar, #search-button{
+	float: left;
+	margin: 30px 0 0 0;
+	height: 27px;
+}
+
+#search-button button img{
+	width: 15px;
+}
+
+#search-button button {
+	height: 27px;
 
 }
+
+#search-bar input{
+	width: 300px;
+	height: 25px;
+	padding: 0;
+	border: 1px solid #E8E8E8;
+}
+
+#mid-nav-links{
+	clear: both;
+	padding-top: 27px;
+}
+
+.nav-link{
+	float: left;
+	padding-right: 10px;
+}
+
+.nav-link a{
+	color: #333;
+	text-decoration: none;
+}
+
+.nav-link a:hover{
+	text-decoration: underline;
+}
+
+#sign-in a{
+	color: #3586d7;
+	text-decoration: none;
+}
+
+#sign-in a:hover{
+	text-decoration: underline;
+}
+
+#right-nav-links{
+	float: right;
+	padding-top: 30px;
+}
+
+#sign-in{
+	padding: 35px 10px 0 0;
+	float: right;
+}
+
+
+/* FEATURED */
+
+#featured-wrapper-outer{
+	width: 100%;
+	background-color: #F1F1F1;
+	border-top: 1px solid #E8E8E8;
+
+}
+
+#featured-wrapper{
+	width: 95%;
+	margin: 10px auto;
+	background-color: white;
+
+}
+
+
+#featured{
+	/* border: 1px solid black; */
+	width: 70%;
+	display: inline-block;
+	height: 350px;
+	overflow: hidden;
+	margin: 5px 0 0 5px;
+	padding-right: 5px;
+}
+
+#popup{
+	/* border: 1px solid black; */
+	width: 28%;
+	display: inline-block;
+	height: 350px;
+	overflow: hidden;
+}
+
+#video-thumbnail, #content-right-thumbnail{
+	display: inline-block;
+	width: 59%;
+	height: 340px;
+	/* border: 1px solid red; */
+    vertical-align: bottom;
+}
+
+#content-right-thumbnail{
+	width: 36%
+}
+
+.thumbnail-wrapper{
+	width: 98%;
+	height: 110px;
+	/* border: 1px solid green; */
+	margin-left: 5px;
+
+}
+
+/* MORE VIDEOS WRAPPER */
+#more-videos-wrapper{
+	width: 98%;
+	margin: auto;
+}
+
+.thumbnail-left, .thumbnail-right{
+	float: left;
+	width: 49%;
+}
+
+.thumbnail-left{
+	width: 42%;
+}
+
+#square-popup{
+
+}
+
+#popup-text{
+	margin-top:  10px;
+}
+
